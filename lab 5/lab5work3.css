@@ -1,0 +1,43 @@
+#wrapper{
+  background-color: green;
+  height:800px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#item1{
+background-color: blue;
+float:left;
+position: absolute;
+top: 2%;
+left: 17%;
+
+padding: 15px;
+
+width: 17% ;
+height: 30%;
+}
+
+#item2{
+  background-color: red;
+  float: right;
+  position: absolute;
+  top: 2%;
+  right: 17% ;
+
+  padding: 15px;
+
+width: 17%;
+height: 30%;
+}
+
+#item3{
+  background-color: yellow;
+  float: right;
+  position: absolute;
+  top: 35.5%;
+  right: 40% ;
+
+width: 300px;
+height: 320px;
+}

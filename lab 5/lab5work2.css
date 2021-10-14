@@ -1,0 +1,41 @@
+
+
+#wrapper{
+	width:1000px;
+	background-color: white;
+	margin: auto;
+border-left: 300px solid green;
+border-right: 300px solid green;
+}
+
+#title{
+background-color: red;
+color: black;
+text-align: center;
+height: 100px;
+}
+
+#leftbody{
+float: left;
+background-color: pink;
+width: 30%;
+height: 110px;
+}
+
+#rightbody{
+float: right;
+background-color: orange;
+width: 70%;
+height: 110px;
+}
+
+#content{
+background-color: blue;
+height: 750px;
+}
+
+#footer{
+background-color: yellow;
+height: 70px;
+padding-top: 1px;
+}

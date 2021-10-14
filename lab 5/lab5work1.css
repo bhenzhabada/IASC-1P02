@@ -1,0 +1,30 @@
+
+
+#wrapper{
+margin-left: 35px;
+margin-right: 35px;
+	background-color:white;
+}
+
+#header{
+	height:70px;
+	text-align:center;
+	padding: 5px;
+background-color: red;
+color: white;
+}
+
+#leftbody{
+	height: 680px;
+	background-color:green;
+		padding-top:15px;
+		color: white;
+}
+
+
+#footer{
+	background-color: blue;
+padding-top: 15px;
+	height:75px;
+color:white;
+}
