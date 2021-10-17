@@ -1,0 +1,49 @@
+
+.position1{
+  border: solid red 4px;
+  position:fixed;
+  right: 10px;
+  height: 140px;
+  width:20%;
+  color: red;
+  padding:2px;
+
+}
+
+.position2 img {
+  border: solid black 3px;
+  position:absolute;
+  right: 400px;
+  height:400px;
+  width: 25%;
+}
+
+.title{
+  color: blue;
+}
+
+.textsize{
+  font-size: 30px;
+}
+
+h2,p{
+  color: green;
+}
+
+.style{
+  margin: 40px;
+  border: dotted red 2px;
+  padding: 25px;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.title h3{
+  text-align: center;
+}
+
+.font{
+  font-style: italic;
+}
