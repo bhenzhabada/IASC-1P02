@@ -1,0 +1,90 @@
+.title{
+  background-color: #BD121D;
+}
+
+.imagesize{
+  width:150px;
+  height:150px;
+  padding: 10px;
+}
+
+.heading{
+float: right;
+width: 65%;
+color:#290709;
+font-size: 50px;
+font-family:serif;
+font-style: italic;
+}
+
+body{
+  background-color:green;
+}
+
+h2{
+  color:;
+}
+
+p, li{
+  font-family: sans-serif;
+  font-size: 20px;
+
+}
+
+h4{
+  text-decoration: underline;
+  color:#FF6670;
+}
+
+.sushimenu{
+  float:right;
+  width:30%;
+  padding: 10px;
+  border: solid;
+}
+
+.mainmenu{
+  float: left;
+  width:60%;
+  background-color: ;
+  border:solid;
+}
+
+.drinksmenu{
+  position: relative;
+  padding-right: 65px;
+float:right;
+border:solid;
+ }
+
+.order{
+position: relative;
+  float: left;
+  padding-top:175px;
+  padding-left: 25%;
+}
+
+.pictures{
+position:relative;
+  float: right;
+  padding-top: 191px;
+}
+
+
+.footerpart1{
+position:relative;
+float: left;
+top:250px;
+right: 500px;
+color:red;
+background-color: white;
+}
+
+.footerpart2{
+position:relative;
+float: right;
+top: 250px;
+left:25%;
+color:red;
+background-color: white;
+}
