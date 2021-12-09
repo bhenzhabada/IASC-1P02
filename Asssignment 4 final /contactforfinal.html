@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<title>Contact Support</title>
+	<link href="finalproject1.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="finalproject1.js"></script>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+</head>
+
+
+<body onload = "functionName()">
+			<div class="header">
+				<img id="imagesize" src="logo1.0.jpg" alt="automobile logo"/>
+			<h1 class="headername">Lindy Family Automobile Shop</h1>
+			</div>
+
+		<br />
+
+<!-- this is for the header where info such as Home, about us , Contact Us, GAlley will be-->
+		<div class="bar1">
+					<a  href="finalproject1.html">Home</a>
+					<a  href="aboutusforfinal.html">About Us</a>
+					<a  href="contact">Contact Us</a>
+					<a  href="shoppingcart.html">Cart</a>
+		</div>
+
+
+
+
+
+		<div class="screenimg">
+
+
+<!--FORMS TO FILL-->
+	<form class="infobox" action="/action_page.php">
+
+	    <h1 >Contact Support</h1>
+			<p >Have a question? We're here to answer it.</p>
+			<p >Give us all the details in the form below.</p>
+
+
+
+<br />
+						<label for="email">Email Address</label>
+<br />
+				  	<input type="text" id="email" name="email"/>
+<br />
+
+						<label for="name">Full Name</label>
+<br />
+						<input type="text" id="name" name="name"/>
+<br />
+<br />
+
+	<!--Citiation: https://www.w3schools.com, W3 Schools, December 2, 2021-->
+						<label for="topic">Topic</label>
+<br />
+						    <select id="topic" name="topic">
+						      <option value="gifts">Gifts</option>
+						      <option value="order">Order Status</option>
+						      <option value="payment">Payment Information</option>
+									<option value="return">Returns</option>
+									<option value="shipping">Shipping</option>
+									<option value="other">Other</option>
+						    </select>
+
+<br />
+<br />
+
+						<label for="orderinfo">Order Number (Optional) </label>
+<br />
+						<input type="text" id="orderinfo" name="orderinfo"/>
+
+<br />
+						<label for="postal">Zip/ Postal Code (Optional)</label>
+<br />
+						<input type="text" id="postal" name="postal"/>
+
+<br />
+						<label for="subject">Subject</label>
+<br />
+						<input type="text" id="subject" name="subject"/>
+
+<br />
+						<label for="descript">Description (Optional)</label>
+<br />
+						<textarea rows="8" cols="65"  id="descript"></textarea>
+
+<br />
+
+						 <button type="submit" id="submition" onclick= "frmOutputs()">SUBMIT</button>
+
+	  </form>
+
+
+
+</div>
+
+
+
+
+
+
+	<div class="footer">
+		<!-- Add font awesome social icons -->
+		<p id="theDate"></p>
+
+	<span class="socials">
+			<a href="https://web.facebook.com" class="fa fa-facebook"></a>
+			<a href="https://twitter.com" class="fa fa-twitter"></a>
+			<a href="https://www.instagram.com" class="fa fa-instagram"></a>
+			<a href="https://www.snapchat.com" class="fa fa-snapchat-ghost"></a>
+	</span>
+
+	</div>
+
+
+
+</body>
+
+</html>
